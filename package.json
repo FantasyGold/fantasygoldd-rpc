@@ -1,5 +1,5 @@
 {
-  "name": "fantasygoldd-rpc",
+  "name": "@fantasygold/fantasygoldd-rpc",
   "description": "FantasyGold Client Library to connect to FantasyGold Core via RPC",
   "version": "0.0.4",
   "author": {},
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fantasygoldproject/fantasygoldd-rpc.git"
+    "url": "git://github.com/FantasyGold/fantasygoldd-rpc.git"
   },
   "license": "MIT",
   "main": "lib/index.js",
