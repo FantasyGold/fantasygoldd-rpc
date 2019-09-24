@@ -1,5 +1,5 @@
 {
-  "name": "@fantasygold/fantasygoldd-rpc",
+  "name": "fantasygoldd-rpc",
   "description": "FantasyGold Client Library to connect to FantasyGold Core via RPC",
   "version": "0.0.4",
   "author": {},
