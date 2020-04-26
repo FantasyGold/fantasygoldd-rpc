@@ -56,5 +56,5 @@
     "coverage": "istanbul cover node_modules/.bin/_mocha -- --recursive",
     "test": "mocha test -R spec"
   },
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
