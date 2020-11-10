@@ -1,36 +1,27 @@
 {
-  "_args": [
-    [
-      "github:FantasyGold/fantasygoldd-rpc#master",
-      "/home/dev/mynode"
-    ]
+  "name": "fantasygoldd-rpc",
+  "description": "Fantasy Gold Client Library to connect to Fantasy Gold Core via RPC",
+  "version": "0.0.4",
+  "author": "FantasyGold Coin <admin@fantasygold.io>",
+  "contributors": [
+    "Qtum Project Foundation",
+    "SilenceFGC <silence@fantasygold.io>",
+    "NicoFGC <nico@fantasygold.io>"
   ],
-  "_from": "github:FantasyGold/fantasygoldd-rpc#master",
-  "_id": "fantasygoldd-rpc@github:FantasyGold/fantasygoldd-rpc#260c365fa3ab1983c4063aa650af333b0588bfa9",
-  "_inBundle": false,
-  "_integrity": "",
-  "_location": "/fantasygoldd-rpc",
-  "_phantomChildren": {},
-  "_requested": {
+  "keywords": [
+    "fantasy gold",
+    "rpc"
+  ],
+  "repository": {
     "type": "git",
-    "raw": "github:FantasyGold/fantasygoldd-rpc#master",
-    "rawSpec": "github:FantasyGold/fantasygoldd-rpc#master",
-    "saveSpec": "github:FantasyGold/fantasygoldd-rpc#master",
-    "fetchSpec": null,
-    "gitCommittish": "master"
+    "url": "git+https://github.com/FantasyGold/fantasygoldd-rpc.git"
   },
-  "_requiredBy": [
-    "/fantasygoldcore-node"
-  ],
-  "_resolved": "github:FantasyGold/fantasygoldd-rpc#260c365fa3ab1983c4063aa650af333b0588bfa9",
-  "_spec": "github:FantasyGold/fantasygoldd-rpc#master",
-  "_where": "/home/dev/mynode",
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/fantasygold/fantasygoldd-rpc/issues"
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test -R spec",
+    "coverage": "istanbul cover node_modules/.bin/_mocha -- --recursive"
   },
-  "contributors": [],
-  "description": "FantasyGold Client Library to connect to FantasyGold Core via RPC",
   "devDependencies": {
     "async": "^0.9.0",
     "chai": "^1.10.0",
@@ -39,22 +30,10 @@
     "mocha": "^2.1.0",
     "sinon": "^1.12.2"
   },
+  "bugs": {
+    "url": "https://github.com/FantasyGold/fantasygoldd-rpc/issues"
+  },
+  "homepage": "https://github.com/FantasyGold/fantasygoldd-rpc",
   "directories": {},
-  "homepage": "https://github.com/fantasygold/fantasygoldd-rpc",
-  "keywords": [
-    "fantasygold",
-    "rpc"
-  ],
-  "license": "MIT",
-  "main": "lib/index.js",
-  "name": "fantasygoldd-rpc",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/FantasyGold/fantasygoldd-rpc.git"
-  },
-  "scripts": {
-    "coverage": "istanbul cover node_modules/.bin/_mocha -- --recursive",
-    "test": "mocha test -R spec"
-  },
-  "version": "0.0.5"
+  "readme": "ERROR: No README data found!"
 }
